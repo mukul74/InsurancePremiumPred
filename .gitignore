@@ -1,0 +1,96 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env/
+.venv/
+myvenv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch and TensorFlow cache
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.tflite
+
+# Transformers cache (e.g., Hugging Face)
+~/.cache/huggingface/
+*.safetensors
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Logs and output
+*.log
+*.out
+logs/
+*.tmp
+*.bak
+
+# Datasets and large files
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+*.rar
+
+# DVC cache and outputs
+.dvc/
+.dvc/cache/
+*.dvc
+
+# Wandb logs
+wandb/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Notebooks outputs
+*.nb.html
+
+# Docker
+*.pid
+*.pid.lock
+*.sock
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage and test
+htmlcov/
+coverage.xml
+.cache/
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+
+# Temporary files
+*.swp
+*.bak
+*~
+
+# Environment variables
+.env
+.env.*
+secrets.env
+
+# VSCode Python environment selector
+.python-version
